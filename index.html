@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <title>Coming soon | Gangaa Engineering</title>
+    <meta property="og:title" content="Gangaa Engineering" />
+    <meta property="og:url" content="https://gangaaeng.com/" />
+    <meta
+      name="description"
+      content="GANGAA ENGINEERING SOLUTIONS PVT. LTD. is a premier multi-disciplinary
+    engineering and planning consulting firm in India. We provide total solutions to
+    suit exacting requirements of project from conception to implementation. Our
+    fields of specialization include: Archaeology, Construction, Ventures, Roads,
+    Bridge, Traffic and Transportation, Environmental Engineering & Urban
+    Infrastructure , Water Resources, GIS & Remote Sensing, industrial structures,
+    Environmental Management, Resettlement Plans, Institutional Strengthening,
+    and Training and Transfer of Technology, GIS/RS, etc."
+    />
+    <meta
+      property="og:description"
+      content="GANGAA ENGINEERING SOLUTIONS PVT. LTD. is a premier multi-disciplinary
+    engineering and planning consulting firm in India. We provide total solutions to
+    suit exacting requirements of project from conception to implementation. Our
+    fields of specialization include: Archaeology, Construction, Ventures, Roads,
+    Bridge, Traffic and Transportation, Environmental Engineering & Urban
+    Infrastructure , Water Resources, GIS & Remote Sensing, industrial structures,
+    Environmental Management, Resettlement Plans, Institutional Strengthening,
+    and Training and Transfer of Technology, GIS/RS, etc."
+    />
+
+    <meta
+      name="keywords"
+      content="GANGAA, ENGINEERING, SOLUTIONS, gangaaeng,planning, consulting, project "
+    />
+    <meta property="og:image" content="/assets/images/gangaa.png" />
+  </head>
+
+  <body>
+    <section class="background">
+      <video autoplay muted loop id="bgVideo">
+        <source src="./assets/images/bg_video.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+
+      <div id="image_overlay"></div>
+      <div class="texture_overlay"></div>
+    </section>
+    <section class="foreground">
+      <div class="welcome_card">
+        <div class="hello">
+          <h1 class="font-caveat">
+            Hello
+            <img
+              class="waving_hand_emoji"
+              src="./assets/images/waving-hand-sign.png"
+              alt="Waving hand Emoji"
+            />
+          </h1>
+        </div>
+        <div class="welcome">
+          <h2 class="font-canveat">welcome to</h2>
+          <img
+            class="brand_logo"
+            src="./assets/images/GANGAA_logo.svg"
+            alt="Gangaa Logo"
+          />
+        </div>
+        <div class="message">
+          <p>
+            Our site is under construction. <br />
+            Meanwhile please reach to us at
+            <a
+              id="email-address"
+              href="mailto:hello@gangaaeng.com?subject=Query from website&body=Hi,%0A%0AI would like to know more about Gangaa Engineering."
+              >hello@gangaaeng.com</a
+            >
+            <br />
+            Call us at: <a href="tel:+91 9703244060">+91 9703244060</a>
+          </p>
+          <!-- <h4 class="contact">
+            Call us at: <a href="tel:+91 9703244060">+91 9703244060</a>
+          </h4> -->
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      const bgVideo = document.getElementById("bgVideo");
+      bgVideo.addEventListener("loadeddata", () => {
+        document.getElementById("image_overlay").style.display = "none";
+      });
+    </script>
+  </body>
+</html>
+
+// loadeddata
